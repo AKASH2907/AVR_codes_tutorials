@@ -9,4 +9,4 @@ The details of the codes are as follows:
 
 [2] [LED_PORTA_ANTI_CLOCK_SIMULTANEOUS](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/1.LED_PORTA_ANTI_CLOCK_SIMULTANEOUS): It is the starting of the tutorials for ATmega8 microcontroller codes. In this program, the LED blinks simultaneously in clockwise and anticlockwise direction with a delay of 100ms.
 
-[3] [LED_PORTA_C_A_ARRAY](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/2.LED_PORTA_C_A_ARRAY): 
+[3] [LED_PORTA_C_A_ARRAY](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/2.LED_PORTA_C_A_ARRAY): In this code, microcontroller port A displays the values from the array on the LED such as A(0) = 0x81 will turn the LEDs at output PortA0 and PortA7.
