@@ -1,7 +1,11 @@
 # AVR_codes_tutorials
 AVR Codes for basic LED patterns contol to specialized functions such as Timer controls, Mulitple Interrupts, LCD, Edge Avoiding Bots, Vending Machines, etc.
 
-ATmega 8/16 is a 8/16 bit microcontroller. The detailed datasheet of ATmega 8/16 can be read from [here](https://www.gme.cz/data/attachments/dsh.958-112.1.pdf) to know more about the specialized PIN functions. The codes were written in ATmel studio and for the designing of circuits [Proteus](https://proteus.soft112.com/) software is used. You can find the design files(.dsn) inside each folder of the code. Proteus software is very easy to use and it contains all the types of microcontrollers alongwith various objects required such as LED, LCD, Motor modules, Seven-segment display, etc.
+ATmega 8/16 is a 8/16 bit microcontroller. The detailed datasheet of ATmega 8/16 can be read from [here](https://www.gme.cz/data/attachments/dsh.958-112.1.pdf) to know more about the specialized PIN functions. Some facts about the Atmega microcontorllers are as follows:
+
+* It is a 40-pin low power microcontroller developed using CMOS technology based on AVR architecture.
+
+The codes were written in ATmel studio and for the designing of circuits [Proteus](https://proteus.soft112.com/) software is used. You can find the design files(.dsn) inside each folder of the code. Proteus software is very easy to use and it contains all the types of microcontrollers alongwith various objects required such as LED, LCD, Motor modules, Seven-segment display, etc.
 
 The details of the codes are as follows:
 
