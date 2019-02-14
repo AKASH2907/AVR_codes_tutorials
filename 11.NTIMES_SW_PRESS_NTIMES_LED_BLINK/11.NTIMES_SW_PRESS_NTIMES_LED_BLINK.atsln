@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "11.NTIMES_SW_PRESS_NTIMES_LED_BLINK", "11.NTIMES_SW_PRESS_NTIMES_LED_BLINK\11.NTIMES_SW_PRESS_NTIMES_LED_BLINK.cproj", "{805A59C8-DA56-4D3A-B9BA-E3EE2702DC0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805A59C8-DA56-4D3A-B9BA-E3EE2702DC0C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{805A59C8-DA56-4D3A-B9BA-E3EE2702DC0C}.Debug|AVR.Build.0 = Debug|AVR
+		{805A59C8-DA56-4D3A-B9BA-E3EE2702DC0C}.Release|AVR.ActiveCfg = Release|AVR
+		{805A59C8-DA56-4D3A-B9BA-E3EE2702DC0C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
