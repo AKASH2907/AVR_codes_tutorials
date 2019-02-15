@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "13.NTIMES_PRESS_NTH_NUMBERDISPLAY", "13.NTIMES_PRESS_NTH_NUMBERDISPLAY\13.NTIMES_PRESS_NTH_NUMBERDISPLAY.cproj", "{4D268D60-6463-4E2F-ABFB-1721F59F814A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D268D60-6463-4E2F-ABFB-1721F59F814A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4D268D60-6463-4E2F-ABFB-1721F59F814A}.Debug|AVR.Build.0 = Debug|AVR
+		{4D268D60-6463-4E2F-ABFB-1721F59F814A}.Release|AVR.ActiveCfg = Release|AVR
+		{4D268D60-6463-4E2F-ABFB-1721F59F814A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
