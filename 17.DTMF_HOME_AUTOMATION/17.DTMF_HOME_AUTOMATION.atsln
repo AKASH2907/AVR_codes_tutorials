@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "17.DTMF_HOME_AUTOMATION", "17.DTMF_HOME_AUTOMATION\17.DTMF_HOME_AUTOMATION.cproj", "{DEB78E9A-7A16-4654-85B7-95751B7B386D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEB78E9A-7A16-4654-85B7-95751B7B386D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DEB78E9A-7A16-4654-85B7-95751B7B386D}.Debug|AVR.Build.0 = Debug|AVR
+		{DEB78E9A-7A16-4654-85B7-95751B7B386D}.Release|AVR.ActiveCfg = Release|AVR
+		{DEB78E9A-7A16-4654-85B7-95751B7B386D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
