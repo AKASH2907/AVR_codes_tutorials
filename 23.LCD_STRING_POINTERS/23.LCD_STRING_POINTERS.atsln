@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "23.LCD_STRING_POINTERS", "23.LCD_STRING_POINTERS\23.LCD_STRING_POINTERS.cproj", "{C9C08B47-1361-471A-A23A-D83D069220EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9C08B47-1361-471A-A23A-D83D069220EB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C9C08B47-1361-471A-A23A-D83D069220EB}.Debug|AVR.Build.0 = Debug|AVR
+		{C9C08B47-1361-471A-A23A-D83D069220EB}.Release|AVR.ActiveCfg = Release|AVR
+		{C9C08B47-1361-471A-A23A-D83D069220EB}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
