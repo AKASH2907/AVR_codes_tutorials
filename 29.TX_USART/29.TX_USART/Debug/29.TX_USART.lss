@@ -1,0 +1,202 @@
+
+29.TX_USART.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000cc  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000010  00800060  000000cc  00000140  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .stab         000006cc  00000000  00000000  00000150  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  3 .stabstr      00000085  00000000  00000000  0000081c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_aranges 000000b0  00000000  00000000  000008a8  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000480  00000000  00000000  00000958  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000170  00000000  00000000  00000dd8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000086e  00000000  00000000  00000f48  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000068  00000000  00000000  000017b8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000012e  00000000  00000000  00001820  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000060  00000000  00000000  0000194e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_macinfo 0000fab7  00000000  00000000  000019ae  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000030  00000000  00000000  00011465  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	29 c0       	rjmp	.+82     	; 0x54 <__ctors_end>
+   2:	00 00       	nop
+   4:	42 c0       	rjmp	.+132    	; 0x8a <__bad_interrupt>
+   6:	00 00       	nop
+   8:	40 c0       	rjmp	.+128    	; 0x8a <__bad_interrupt>
+   a:	00 00       	nop
+   c:	3e c0       	rjmp	.+124    	; 0x8a <__bad_interrupt>
+   e:	00 00       	nop
+  10:	3c c0       	rjmp	.+120    	; 0x8a <__bad_interrupt>
+  12:	00 00       	nop
+  14:	3a c0       	rjmp	.+116    	; 0x8a <__bad_interrupt>
+  16:	00 00       	nop
+  18:	38 c0       	rjmp	.+112    	; 0x8a <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	36 c0       	rjmp	.+108    	; 0x8a <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	34 c0       	rjmp	.+104    	; 0x8a <__bad_interrupt>
+  22:	00 00       	nop
+  24:	32 c0       	rjmp	.+100    	; 0x8a <__bad_interrupt>
+  26:	00 00       	nop
+  28:	30 c0       	rjmp	.+96     	; 0x8a <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	2e c0       	rjmp	.+92     	; 0x8a <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	2c c0       	rjmp	.+88     	; 0x8a <__bad_interrupt>
+  32:	00 00       	nop
+  34:	2a c0       	rjmp	.+84     	; 0x8a <__bad_interrupt>
+  36:	00 00       	nop
+  38:	28 c0       	rjmp	.+80     	; 0x8a <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	26 c0       	rjmp	.+76     	; 0x8a <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	24 c0       	rjmp	.+72     	; 0x8a <__bad_interrupt>
+  42:	00 00       	nop
+  44:	22 c0       	rjmp	.+68     	; 0x8a <__bad_interrupt>
+  46:	00 00       	nop
+  48:	20 c0       	rjmp	.+64     	; 0x8a <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	1e c0       	rjmp	.+60     	; 0x8a <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	1c c0       	rjmp	.+56     	; 0x8a <__bad_interrupt>
+	...
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+
+00000060 <__do_copy_data>:
+  60:	10 e0       	ldi	r17, 0x00	; 0
+  62:	a0 e6       	ldi	r26, 0x60	; 96
+  64:	b0 e0       	ldi	r27, 0x00	; 0
+  66:	ec ec       	ldi	r30, 0xCC	; 204
+  68:	f0 e0       	ldi	r31, 0x00	; 0
+  6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
+  6c:	05 90       	lpm	r0, Z+
+  6e:	0d 92       	st	X+, r0
+  70:	a0 37       	cpi	r26, 0x70	; 112
+  72:	b1 07       	cpc	r27, r17
+  74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
+
+00000076 <__do_clear_bss>:
+  76:	10 e0       	ldi	r17, 0x00	; 0
+  78:	a0 e7       	ldi	r26, 0x70	; 112
+  7a:	b0 e0       	ldi	r27, 0x00	; 0
+  7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
+
+0000007e <.do_clear_bss_loop>:
+  7e:	1d 92       	st	X+, r1
+
+00000080 <.do_clear_bss_start>:
+  80:	a0 37       	cpi	r26, 0x70	; 112
+  82:	b1 07       	cpc	r27, r17
+  84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
+  86:	1a d0       	rcall	.+52     	; 0xbc <main>
+  88:	1f c0       	rjmp	.+62     	; 0xc8 <_exit>
+
+0000008a <__bad_interrupt>:
+  8a:	ba cf       	rjmp	.-140    	; 0x0 <__vectors>
+
+0000008c <usart_init>:
+	}
+	
+}
+void usart_init()
+{
+	UCSRA|=(1<<UDRE);
+  8c:	5d 9a       	sbi	0x0b, 5	; 11
+	UCSRB|=(1<<TXEN);
+  8e:	53 9a       	sbi	0x0a, 3	; 10
+	UBRRL=0x33;
+  90:	83 e3       	ldi	r24, 0x33	; 51
+  92:	89 b9       	out	0x09, r24	; 9
+}
+  94:	08 95       	ret
+
+00000096 <txstring>:
+void txstring(char *x)
+{
+  96:	e8 2f       	mov	r30, r24
+  98:	f9 2f       	mov	r31, r25
+	while(*x)
+  9a:	0c c0       	rjmp	.+24     	; 0xb4 <txstring+0x1e>
+{
+		UDR=*x;
+  9c:	8c b9       	out	0x0c, r24	; 12
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  9e:	8f ef       	ldi	r24, 0xFF	; 255
+  a0:	90 e7       	ldi	r25, 0x70	; 112
+  a2:	a2 e0       	ldi	r26, 0x02	; 2
+  a4:	81 50       	subi	r24, 0x01	; 1
+  a6:	90 40       	sbci	r25, 0x00	; 0
+  a8:	a0 40       	sbci	r26, 0x00	; 0
+  aa:	e1 f7       	brne	.-8      	; 0xa4 <txstring+0xe>
+  ac:	00 c0       	rjmp	.+0      	; 0xae <txstring+0x18>
+  ae:	00 00       	nop
+		x++; _delay_ms(100);
+	
+	while((UCSRA&(1<<UDRE))==0);
+  b0:	5d 9b       	sbis	0x0b, 5	; 11
+  b2:	fe cf       	rjmp	.-4      	; 0xb0 <txstring+0x1a>
+	UCSRB|=(1<<TXEN);
+	UBRRL=0x33;
+}
+void txstring(char *x)
+{
+	while(*x)
+  b4:	81 91       	ld	r24, Z+
+  b6:	88 23       	and	r24, r24
+  b8:	89 f7       	brne	.-30     	; 0x9c <txstring+0x6>
+		UDR=*x;
+		x++; _delay_ms(100);
+	
+	while((UCSRA&(1<<UDRE))==0);
+}	
+  ba:	08 95       	ret
+
+000000bc <main>:
+#include <util/delay.h>
+void usart_init();
+void txstring();
+void main()
+{
+	usart_init();
+  bc:	e7 df       	rcall	.-50     	; 0x8c <usart_init>
+  be:	c0 e6       	ldi	r28, 0x60	; 96
+	while(1)
+	{
+		txstring("WELCOME\r HOME\r");
+  c0:	d0 e0       	ldi	r29, 0x00	; 0
+  c2:	ce 01       	movw	r24, r28
+  c4:	e8 df       	rcall	.-48     	; 0x96 <txstring>
+  c6:	fd cf       	rjmp	.-6      	; 0xc2 <main+0x6>
+
+000000c8 <_exit>:
+  c8:	f8 94       	cli
+
+000000ca <__stop_program>:
+  ca:	ff cf       	rjmp	.-2      	; 0xca <__stop_program>
