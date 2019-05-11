@@ -12,7 +12,13 @@ ATmega 8/16 is a 8/16 bit microcontroller. The detailed datasheet of ATmega 8/16
 Pin Layout Diagram of **ATmega16** is as follows:
 ![introduction-to-atmega16-5-1](https://user-images.githubusercontent.com/22872200/52076803-7c865f00-25b5-11e9-88e8-8cb1a8cc4fe9.png)
 
+
+# Codes
+
    The codes were written in ATmel studio and for the designing of circuits [Proteus](https://proteus.soft112.com/) software is used. You can find the design files(.dsn) inside each folder of the code. Proteus software is very easy to use and it contains all the types of microcontrollers alongwith various objects required such as LED, LCD, Motor modules, Seven-segment display, etc.
+   
+   I have used Port A for most of my work. Don't ask why. (My name starts with A :bowtie: ). Pretty much folder titles displays what is happening in the code, but still I'm plotting out any extra details required.
+
 
 The details of the codes are as follows:
 
@@ -24,6 +30,20 @@ The details of the codes are as follows:
 
 [3] [LED_PORTA_C_A_LEFT_RIGHT_OPERATOR](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/3.LED_PORTA_C_A_LEFT_RIGHT_OPERATOR) - The LEDs on Port A from A0 to A7 turns ON from both left and right sides simultaneously. Then, again the pattern of clockwise and counterclockwise is happening simultaneously. But, here the difference is that it is done using ***LEFT(<<)*** and ***RIGHT(>>) SHIFT*** operators.
 
-[4] []() - 
+[4] [LED_PORTA_D6_D7_BLINK](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/4.LED_PORTA_D6_D7_BLINK) - D6 and D7 blinking with 100ms delay.  
+
+[5] [LED_PORTA_SELECTED_BLINK](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/5.LED_PORTA_SELECTED_BLINK) - Selected Blinking of LEDs on Port A.
+
+[6] [1SWITCH_1LED](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/6.1SWITCH_1LED) - This program uses 1 switch and 1 LED. This is the beginning for **writing instruction** to the port. Till now, in LEDs we were writing code from port to output device.
+
+[7] [TWO_SW_TWO_LED](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/7.TWO_SW_TWO_LED) - 2 switches and 2 LEDs. Likewise, it can be extended for multiple switches.
+
+[8] [SW_CW_CCW_SIMULT](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/8.SW_CW_CCW_SIMULT) - If the switch is pressed, then there is a simultaneous clockwise and anti-clockwise blinking of LEDs on Port A.
+
+[9] [SW_PRESS2TIMES_LED_GLOW_OFF_3RDTIME](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/9.SW_PRESS2TIMES_LED_GLOW_OFF_3RDTIME) - If the switch is pressed 2 timesthen lED goes on, for third time, it will go OFF.
+
+[10] [7SEG_000_999](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/10.7SEG_000_999) - Seven segment display counting starts from 000 and goes up till 999.
+
+[11] [NTIMES_SW_PRESS_NTIMES_LED_BLINK](https://github.com/AKASH2907/AVR_codes_tutorials/tree/master/11.NTIMES_SW_PRESS_NTIMES_LED_BLINK) -  
 
 ***Updating regularly....***
